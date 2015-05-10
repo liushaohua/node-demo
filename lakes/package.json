@@ -1,0 +1,38 @@
+{
+  "name": "lakes",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concat": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-uglify": "*",
+    "grunt-filerev": "*",
+    "grunt-inline-angular-templates": "*",
+    "grunt-rev": "*",
+    "grunt-usemin": "*"
+  },
+  "author": "zfpx",
+  "license": "ISC"
+}

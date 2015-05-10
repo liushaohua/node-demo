@@ -1,0 +1,17 @@
+doctype html
+html
+   head
+      - var lesson = 'node.js'
+      title #{lesson.toUpperCase()}
+      - var msg = '<script> <script>'
+      - var sss = 'double'
+   body
+       p #{msg} is good
+       p !{msg}
+        p \!{msg}
+
+       p= lesson 
+       p= msg
+
+      
+       input(value=sss)
